@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -108,14 +108,14 @@ namespace Notepad
             if (wordWrapToolStripMenuItem.Checked == true)
             {
                 richTextBox1.WordWrap = false;
-                richTextBox1.ScrollBars = ScrollBars.Both;
+                richTextBox1.ScrollBars = RichTextBoxScrollBars.Both;
                 wordWrapToolStripMenuItem.Checked = false;
             }
             else
             {
 
                 richTextBox1.WordWrap = true;
-                richTextBox1.ScrollBars = ScrollBars.Vertical;
+                richTextBox1.ScrollBars = RichTextBoxScrollBars.Vertical;
                 wordWrapToolStripMenuItem.Checked = true;
             }
         }
